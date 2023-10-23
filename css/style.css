@@ -118,23 +118,29 @@ body {
 
 /* Медиазапросы для мобильных устройств */
 @media (max-width: 768px) {
+  .content {
+    margin-bottom: 0;
+  }
+
   .container {
-    border-radius: 0;
+    border-radius: 10px;
+    margin: 20px;
   }
 
   .title {
-    padding: 15px 0;
+    padding: 15px 0 0 0;
     font-size: 40px;
   }
 
   .quest__title,
   .questions__title {
     font-size: 16px;
-    margin: 30px 0;
+    margin: 30px 0 30px 0;
+    padding: 0;
   }
 
   .quest__description {
-    padding: 0 15px;
+    padding: 0;
     text-align: justify;
     font-size: 14px;
   }
@@ -154,15 +160,8 @@ body {
   }
 
   .decryption__title {
-    padding: 15px 0 0 0;
-    font-size: 25px;
-    margin-bottom: 20px;
+    padding: 20px 0 20px 0;
+    font-size: 20px;
+    margin-bottom: 0;
   }
-}
-
-/* Для qr.html */
-.centered-image {
-  width: 500px;
-  display: block;
-  margin: 0 auto;
 }
