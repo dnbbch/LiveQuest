@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ebedf4;
+}
+
+.background {
+  background-image: url("/img/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.centered-image {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .centered-image {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+}
