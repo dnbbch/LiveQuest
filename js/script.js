@@ -23,7 +23,7 @@ checkAnswer('check10', 'answer10', ['12']);
 checkAnswer('check11', 'answer11', ['дыхание']);
 checkAnswer('check12', 'answer12', ['р']);
 checkAnswer('check13', 'answer13', ['50']);
-checkAnswer('check14', 'answer14', ['волнистые']);
+checkAnswer('check14', 'answer14', ['волнистые', 'волнистых']);
 checkAnswer('check15', 'answer15', ['тишина']);
 
 document.getElementById("decryptButton").addEventListener("click", function () {
